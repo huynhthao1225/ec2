@@ -12,19 +12,6 @@ variable "ec2_name" {
 
 }
 
-variable "aws_access_key" {
-  description = "This is to set AWS ACCESS_KEY_ID"
-  type        = string
-  default     = "AKIA446HKZ3JIKOU33LR"
-}
-
-variable "aws_secret_access_key" {
-  description = "This is where to set AWS SECRET ACCESS KEY"
-  type        = string
-  default     = "jpN+zb/qFQZ/K9FAWcgVtg0/ze0CuEsXI3Z12mUs"
-
-}
-
 variable "configuration" {
   description = "This is where we define array of instances"
   default = [
